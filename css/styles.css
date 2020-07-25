@@ -1,0 +1,195 @@
+body{
+  font-family: "Serif";
+}
+h1{
+  font-family:"serif";
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+  color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color:  #ffcd19;
+}
+H2{
+  font-family: "serif";
+  font-size: 3rem;
+  line-height: 1.5;
+  color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
+}
+h3{
+  font-family: 'ubuntu';
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+p{
+  color: #8f8f8f;
+  line-height: 1.5;
+  font-size: 1.3rem;
+}
+#home{
+  background-color: #050505;
+  color: white;
+  text-align: left;
+}
+.container-fluid{
+  padding:5% 10% 7% ;
+}
+/*navigation bar*/
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: "Serif";
+  font-size: 2.5rem;
+  color:#ffcd19;
+  font-weight: bold;
+  text-shadow:2px 2px #035aa6;
+}
+.navbar-brand:hover{
+  color: white;
+}
+.nav-link{
+  color:white;
+  font-size: 1.2rem;
+  font-family: "ubuntu";
+}
+.navbar-item{
+  padding: 0 15px;
+}
+.nav-link:hover{
+  color: #ffcd19;
+}
+/*Title*/
+.title-image{
+  width:70%;
+  transform: rotate(30deg);
+  position: absolute;
+  right: 13%;
+}
+
+
+/*feature*/
+#features{
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+}
+@media (max-width:1028px){
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+  #title{
+    text-align: center;
+  }
+}
+
+
+
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+.bee-bite{
+  width: 100%;
+  margin-bottom: 1.3rem;
+
+}
+.bee-bites{
+  width: 80%;
+  margin-bottom: 1.3rem;
+  padding-top: 25px;
+}
+#products{
+  background-color:#cdb30c;
+
+  text-align: center;
+}
+.products-image{
+  margin: 10px;
+  width: 40%;
+  border-radius: 100px;
+
+}
+.carousel-item{
+  padding: 10% 15%;
+}
+/*icon*/
+#icon{
+  background-color: #cdb30c;
+  text-align: center;
+  padding-bottom: 4%;
+}
+.icon-image{
+  width: 20%;
+  color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
+}
+/*About*/
+#About{
+  padding: 2% 6% 5%;
+  background-color: white;
+  text-align: center;
+  margin: 10%;
+}
+.amby{
+  width: 80%;
+  border-radius: 100px;
+
+}
+.p-text{
+  font-family: "ubuntu"
+  color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #cdb30c;
+}
+.about-text{
+  color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #cdb30c;
+}
+.cta{
+  text-align: left;
+}
+#services{
+  background-color: #050505;
+  text-align: center;
+  line-height: 1.5;
+  color:white;
+  font-family: "serif";
+  padding: 5%;
+}
+.list{
+  text-align:left;
+  color: #ffcd19;
+  line-height: 1;
+  padding: 0 40%
+}
+#Contact{
+  text-align:left;
+  padding: 5% 10% 7%;
+}
+.form-group{
+  color: #cdb30c;
+  border-style: double;
+  border-color:#cdb30c;
+  padding: 5%
+}
+.contact-x{
+  padding: 5%;
+}
+/*footer*/
+#footer{
+  background-color:#050505;
+  padding: 2% 40%;
+  text-align: center;
+}
+.row-footer{
+  padding: 5% 1%;
+  color: #cdb30c;
+}
